@@ -4,10 +4,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "test": "jest",
+    "dev": " next dev -p 8000",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "start": "next start"
   },
   "dependencies": {
     "@emailjs/browser": "^4.3.1",
@@ -20,7 +20,8 @@
     "react-fast-marquee": "^1.6.2",
     "react-google-recaptcha": "^3.1.0",
     "react-icons": "^4.11.0",
-    "react-toastify": "^10.0.4"
+    "react-toastify": "^10.0.4",
+    "sharp": "^0.33.3"
   },
   "devDependencies": {
     "autoprefixer": "latest",

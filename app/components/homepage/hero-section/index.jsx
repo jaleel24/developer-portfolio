@@ -46,13 +46,13 @@ function HeroSection() {
             >
               <BsLinkedin size={30} />
             </Link>
-            <Link
+            {/* <Link
               href={personalData.facebook}
               target='_blank'
               className="transition-all text-pink-500 hover:scale-125 duration-300"
             >
               <FaFacebook size={30} />
-            </Link>
+            </Link> */}
             <Link
               href={personalData.leetcode}
               target='_blank'
@@ -108,12 +108,20 @@ function HeroSection() {
               <div>
                 <span className="ml-4 lg:ml-8 mr-2 text-white">name:</span>
                 <span className="text-gray-400">{`'`}</span>
-                <span className="text-amber-300">Abu Said</span>
+                <span className="text-amber-300">Jaleel Sayal</span>
                 <span className="text-gray-400">{`',`}</span>
               </div>
               <div className="ml-4 lg:ml-8 mr-2">
                 <span className=" text-white">skills:</span>
                 <span className="text-gray-400">{`['`}</span>
+                <span className="text-amber-300">HTML</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">CSS</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">TailwindCSS</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Vuetify</span>
+                <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">React</span>
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">NextJS</span>
@@ -122,14 +130,13 @@ function HeroSection() {
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">Express</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">NestJS</span>
-                <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">MySql</span>
+                <span className="text-amber-300">Nodejs</span>
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">MongoDB</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">Docker</span>
+                <span className="text-amber-300">Bootstrap</span>
                 <span className="text-gray-400">{"', '"}</span>
+               
                 <span className="text-amber-300">AWS</span>
                 <span className="text-gray-400">{"'],"}</span>
               </div>
