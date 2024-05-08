@@ -3,7 +3,7 @@
 </p> -->
 
 ---
-# [Built Portfolio With GitHub ](https://github.com/said7388/github-portfolio)
+
 
 ---
 
@@ -17,7 +17,7 @@
 
 
 
-## View live preview [here](https://abusaid.netlify.app/).
+## View live preview
 
 ---
 
