@@ -8,7 +8,7 @@ export const educations = [
   {
     id: 2,
     title: "Bachelors of Computer Science",
-    duration: "2017 - 2020",
+    duration: "2017 - 2021",
     institution: "York University Toronto",
   },
   {
